@@ -62,12 +62,11 @@ The completed 1-D network also shows a different risk: a representative 95 mm² 
 ## Reproduce Tier 0
 
 ```bash
-pip install numpy matplotlib
+pip install numpy
 python cases/02-hv-cable-lug-electrothermal/tools/verify_tier0.py
-python cases/02-hv-cable-lug-electrothermal/tools/tier0_sweep.py
 ```
 
-The sweep writes a candidate table and sensitivity plot. Inputs are representative design assumptions and must be replaced for any real programme.
+The complete candidate sweep is committed in `results/tier0_candidate_sweep.csv`. Inputs are representative design assumptions and must be replaced for any real programme.
 
 ## Scope and limitations
 
