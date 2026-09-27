@@ -7,7 +7,7 @@ Solver-neutral, public-data benchmark cases for component-scale thermal and elec
 | Case | Component decision | Methods represented | Status |
 |---|---|---|---|
 | [01 — Air-cooled 18650 cell](#case-1-air-cooled-18650-cell-forced-cross-flow) | cell temperature under forced cross-flow | 3-D CHT + analytical heat-conduction check | completed workflow; material-property rerun remains open |
-| [02 — HV cable, lug & junction box](cases/02-hv-cable-lug-electrothermal/) | conductor section and overload margin | Python Tier 0 + OpenModelica 1-D electro-thermal; 3-D CHT scoped next | Tier 0 / Tier 1 complete |
+| [02 — HV cable, lug & junction box](cases/02-hv-cable-lug-electrothermal/) | conductor section and overload margin | Python Tier 0 + OpenModelica 1-D electro-thermal; 3-D CHT scoped next | Tier 0 / Tier 1 complete |\n| [03 — Power-module cold plate](cases/03-power-module-coldplate/) | junction temperature versus flow, TIM and pressure loss | Python thermal-resistance / channel-flow model; 3-D CHT scoped next | initial benchmark complete |
 
 ---
 
