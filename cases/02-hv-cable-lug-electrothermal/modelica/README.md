@@ -3,9 +3,9 @@
 ## Run
 
 ```
-cd tools/tier1_modelica
+cd cases/02-hv-cable-lug-electrothermal/modelica
 omc run_tier1.mos          # builds + simulates SteadyValidation, AmpacityCheck, Mission
-python analyze_tier1.py    # cross-checks vs Tier 0, writes ../../results/tier1_results.png
+python analyze_tier1.py    # cross-checks vs Tier 0, writes ../results/tier1_results.png
 ```
 
 Needs OpenModelica (tested on 1.26.3) with the Modelica Standard Library 4.x, and
@@ -32,4 +32,4 @@ Python with numpy / pandas / matplotlib.
 | `axialConduction`, `junctionBoxes` | Boolean | set both false + uniform ambient to recover Tier 0 |
 | `R_contact` | 30e-6 Ω | lug contact resistance per joint |
 
-Results and the engineering discussion: [`../../docs/tier1-results.md`](../../docs/tier1-results.md).
+Results and engineering interpretation: [`../README.md`](../README.md).
