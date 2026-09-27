@@ -1,0 +1,9 @@
+material,section_mm2,OD_mm,conductor_kg_per_m,ampacity_A_stillair_85C,margin_to_500A_A,verdict
+Aluminium EN AW-1350,50,13.2,0.135,224,-276,fail
+Aluminium EN AW-1350,70,14.8,0.189,279,-221,fail
+Aluminium EN AW-1350,95,16.5,0.257,341,-159,fail
+Aluminium EN AW-1350,120,18.0,0.325,399,-101,fail
+Aluminium EN AW-1350,150,19.6,0.406,463,-37,fail
+Aluminium EN AW-1350,185,21.3,0.500,533,33,pass
+Aluminium EN AW-1350,240,23.7,0.649,635,135,pass
+Copper ETP,120,18.0,1.072,514,14,pass
