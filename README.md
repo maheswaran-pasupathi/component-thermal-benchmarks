@@ -1,4 +1,15 @@
-# STAR-CCM+ CHT Benchmarks
+# Component Thermal Benchmarks
+
+Solver-neutral, public-data benchmark cases for component-scale thermal and electro-thermal decisions. Each case distinguishes completed results from planned fidelity extensions and declares its input provenance.
+
+## Benchmark library
+
+| Case | Component decision | Methods represented | Status |
+|---|---|---|---|
+| [01 — Air-cooled 18650 cell](#case-1-air-cooled-18650-cell-forced-cross-flow) | cell temperature under forced cross-flow | 3-D CHT + analytical heat-conduction check | completed workflow; material-property rerun remains open |
+| [02 — HV cable, lug & junction box](cases/02-hv-cable-lug-electrothermal/) | conductor section and overload margin | Python Tier 0 + OpenModelica 1-D electro-thermal; 3-D CHT scoped next | Tier 0 / Tier 1 complete |
+
+---
 
 Conjugate heat transfer (CHT) studies built in STAR-CCM+, using publicly
 traceable literature/manufacturer data as model input and validated against
