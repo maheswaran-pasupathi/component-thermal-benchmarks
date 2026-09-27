@@ -1,0 +1,14 @@
+// Tier 1 build + simulate. Run:  omc run_tier1.mos
+loadModel(Modelica); getErrorString();
+loadFile("HVCableTier1.mo"); getErrorString();
+
+checkModel(HVCableTier1.CableAxial); getErrorString();
+
+simulate(HVCableTier1.SteadyValidation, outputFormat="csv",
+         fileNamePrefix="SteadyValidation"); getErrorString();
+
+simulate(HVCableTier1.AmpacityCheck, outputFormat="csv",
+         fileNamePrefix="AmpacityCheck"); getErrorString();
+
+simulate(HVCableTier1.Mission, outputFormat="csv",
+         fileNamePrefix="Mission"); getErrorString();
